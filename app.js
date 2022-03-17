@@ -3,4 +3,8 @@ const resultDisplay = document.querySelector('#result')
 const startPauseDisplay = document.querySelector('#start-pause-button')
 const squares = document.querySelectorAll('.grid div')
 
-
+function moveFrog(){
+    console.log('moved')
+    
+}
+document.addEventListener('keyup', moveFrog())
